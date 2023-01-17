@@ -4,8 +4,9 @@ With this project you can build a custom Centos image with Packer, upload it to 
 
 Cd to ```packer``` dir.
 
-First export environment variables with Yandex credentials for Packer. For this you need the YC utility installed and set up.
-You also got to have a default subnet ```default-ru-central1-a``` for the build process to be successful. Or you may specify any existing subnet name in ```pkr_env_vars.sh``` file.
+First export environment variables with Yandex credentials for Packer.
+For this you need the YC utility installed and set up.
+You also got to have a default subnet ```default-ru-central1-a``` for the build process to be successful. Alternatively you may specify any existing subnet name in ```pkr_env_vars.sh``` file.
 
 ```
 source ./pkr_env_vars.sh
